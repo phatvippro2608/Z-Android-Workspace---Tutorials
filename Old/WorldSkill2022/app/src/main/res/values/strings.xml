@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">WorldSkill2022</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="create_a_new_ticket">Create a new ticket</string>
+    <string name="choose_one_picture">Choose one picture</string>
+    <string name="create">Create</string>
+    <string name="input_your_name">Input your name</string>
+    <string name="preview_picture">Preview picture</string>
+    <string name="type">Type</string>
+    <string name="tickets_create">Tickets Create</string>
+</resources>

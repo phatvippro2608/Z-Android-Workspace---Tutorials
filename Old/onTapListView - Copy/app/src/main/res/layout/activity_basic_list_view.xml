@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BasicListView">
+    <LinearLayout
+        android:id="@+id/layoutInputIn4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="200dp"
+        android:background="@color/my_secondary"
+        android:padding="16dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Họ và tên"/>
+        <EditText
+            android:id="@+id/edtMajor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:hint="Chuyên ngành"/>
+        <Button
+            android:id="@+id/btnInputIn4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/white"
+            android:text="Nhập thông tin"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvInfo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutInputIn4"
+        android:listSelector="@color/my_secondary"/>
+</RelativeLayout>

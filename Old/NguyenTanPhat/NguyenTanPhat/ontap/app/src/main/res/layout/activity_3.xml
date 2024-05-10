@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    tools:context=".Activity3">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thông tin sách"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtMS"
+        android:hint="Nhập mã sách"
+        android:textSize="26sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtTS"
+        android:hint="Nhập tên sách"
+        android:textSize="26sp"/>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Màu bìa:"
+            android:gravity="center"
+            android:textSize="26sp"
+            android:layout_marginRight="10dp"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Xanh"
+            android:textSize="26sp"
+            android:checked="true"
+            android:id="@+id/rdbXanh"/>
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vàng"
+            android:textSize="26sp"
+            android:id="@+id/rdbVang"/>
+    </RadioGroup>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:textSize="26sp"
+        android:id="@+id/btnThem"
+        android:textAllCaps="false"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Danh sách thông tin sách:"
+        android:textSize="26sp"
+        android:layout_marginTop="10dp"/>
+
+    <ListView
+        android:id="@+id/lvTTS"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>

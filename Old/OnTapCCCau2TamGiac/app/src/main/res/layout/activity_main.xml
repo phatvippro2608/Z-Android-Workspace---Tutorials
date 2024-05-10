@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/edtA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:inputType="datetime"
+            android:hint="Số a" />
+
+        <EditText
+            android:id="@+id/edtB"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:inputType="textCapCharacters"
+            android:hint="Số b" />
+
+        <EditText
+            android:id="@+id/edtC"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.33"
+            android:inputType="text"
+
+            android:hint="Số c" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/edtKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ddd"
+        android:hint="Kết quả"
+        android:padding="10dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnKiemTraTG"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Kiểm tra tam giác"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnChuVi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính chu vi"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnDienTich"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính diện tích"
+        android:textAllCaps="false" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnB2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tính phương trình bậc 2"
+        android:textAllCaps="false" />
+    <EditText
+        android:id="@+id/edtTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số a" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lấy giờ"
+        android:textAllCaps="false" />
+
+</LinearLayout>

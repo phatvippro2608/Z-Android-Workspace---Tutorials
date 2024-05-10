@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="*"
+    tools:context=".MainActivity">
+    <TableRow>
+
+        <TextView
+            android:layout_width="232dp"
+            android:layout_span="5"
+            android:gravity="center"
+            android:text="Đăng nhập"
+            android:textSize="28sp">
+
+        </TextView>
+    </TableRow>
+    <TableRow
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:paddingRight="10dp"
+            android:text="Username:"
+            android:textSize="26sp" />
+        <EditText
+            android:hint="Username: "
+            android:textSize="26sp"
+            android:layout_column="1"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_span="1"
+            android:paddingRight="10dp"
+            android:text="Password:"
+            android:textSize="26sp" />
+        <EditText
+            android:hint="Name ID:"
+            android:textSize="26sp"
+            android:layout_span="1"
+            android:inputType="textPassword"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_marginTop="10dp">
+
+    </TableRow>
+
+</TableLayout>

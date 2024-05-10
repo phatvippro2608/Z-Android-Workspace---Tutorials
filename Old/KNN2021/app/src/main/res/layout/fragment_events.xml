@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.EventsFragment"
+    android:padding="16dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtEventsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Events List"
+        android:textSize="28sp"
+        android:gravity="center"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="50dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/txtEventsList"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:id="@+id/statusEvents">
+        <TextView
+            android:id="@+id/btnAll"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All /"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/btnUnread"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unread /"
+            android:textSize="20sp"/>
+        <TextView
+            android:id="@+id/btnRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read"
+            android:textSize="20sp"/>
+    </LinearLayout>
+
+        <ListView
+            android:id="@+id/lvEvents"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/statusEvents"
+            android:layout_marginTop="35dp"/>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

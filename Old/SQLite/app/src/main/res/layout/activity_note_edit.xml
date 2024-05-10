@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.NoteEditActivity"
+    android:padding="16dp">
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/layout_edit_nameOfJob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="30dp"
+        android:background="@color/white"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edt_NameOfJob"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name of Job"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <EditText
+        android:id="@+id/edt_Note_Contain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_edit_nameOfJob"
+        android:layout_above="@+id/btn_CreateNote"
+        android:layout_marginTop="16dp"
+        android:inputType="textMultiLine"
+        android:gravity="top"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_CreateNote"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_button"
+        android:text="Create Note"
+        android:textSize="13sp"
+        android:clickable="true"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.TicketsFragment"
+    android:paddingTop="16dp"
+    android:paddingLeft="30dp"
+    android:paddingRight="30dp">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/txtTicketsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tickets List"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnCreateTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTicketsList"
+        android:layout_marginTop="15dp"
+        android:text="@string/create_a_new_ticket"
+        android:background="@drawable/bg_btn"/>
+    <TextView
+        android:id="@+id/txtOpenCeremoryTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opening Ceremony Tickets"
+        android:textSize="24sp"
+        android:layout_below="@+id/btnCreateTicket"
+        android:layout_marginTop="30dp"/>
+
+    <ListView
+        android:id="@+id/lvOpeningCeremonyTickets"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/txtOpenCeremoryTickets"
+        android:layout_marginTop="5dp"/>
+    <TextView
+        android:id="@+id/txtCloseCeremoryTickets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Closing Ceremony Tickets"
+        android:textSize="24sp"
+        android:layout_below="@+id/lvOpeningCeremonyTickets"
+        android:layout_marginTop="30dp"/>
+
+    <ListView
+        android:id="@+id/lvClosingCeremonyTickets"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_below="@+id/txtCloseCeremoryTickets"
+        android:layout_marginTop="5dp"/>
+
+
+
+
+</RelativeLayout>

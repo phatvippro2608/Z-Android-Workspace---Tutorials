@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="2"
+    tools:context=".MainActivity">
+    <TextView
+        android:id="@+id/txtActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Fragment Demo"
+        android:layout_alignParentTop="true"
+        android:background="#ff00ff"
+        android:textAllCaps="true"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:shadowColor="@color/black"
+        android:shadowDy="@integer/material_motion_duration_medium_2">
+
+    </TextView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtActionBar">
+        <fragment
+            android:id="@+id/fragRed"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            class="com.ntp.bai4.RedFragment"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_red"/>
+        <fragment
+            android:id="@+id/fragGreen"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            class="com.ntp.bai4.GreenFragment"
+            android:layout_weight="1"
+            tools:layout="@layout/fragment_green"/>
+    </LinearLayout>
+</RelativeLayout>

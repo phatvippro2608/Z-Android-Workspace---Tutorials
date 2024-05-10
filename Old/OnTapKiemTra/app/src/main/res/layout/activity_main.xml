@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView
+            android:text="THÔNG TIN SINH VIÊN"
+            android:textSize="24sp"
+            android:layout_span="3"
+            android:gravity="center"
+            android:background="#03A9F4"
+            android:textColor="@color/white"
+            android:textStyle="bold">
+        </TextView>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Mã Số SV: "
+            android:textAllCaps="true"
+            android:textSize="20sp"/>
+        <EditText
+            android:textSize="20sp"
+            android:id="@+id/edtMssv"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="HỌ VÀ TÊN: "
+            android:textSize="20sp"/>
+        <EditText
+            android:textSize="20sp"
+            android:id="@+id/edtHoten"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="SỐ ĐIỆN THOẠI: "
+            android:textSize="20sp"/>
+        <EditText
+            android:textSize="20sp"
+            android:id="@+id/edtSDT"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:text="Thêm"
+            android:id="@+id/btnThem"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="EMAIL:"
+            android:textSize="20sp"/>
+        <EditText
+            android:textSize="20sp"
+            android:id="@+id/edtEmail"/>
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="ĐỊA CHỈ"
+            android:textSize="20sp"/>
+        <EditText
+            android:textSize="20sp"
+            android:id="@+id/edtDiaChi"/>
+    </TableRow>
+
+</TableLayout>

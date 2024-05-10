@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutTicket"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/gray"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+    <TextView
+        android:id="@+id/txtTicketName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textAllCaps="true"
+
+        android:textSize="24sp"/>
+    <TextView
+        android:id="@+id/txtTicketSeat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A6 Row7 Column6"
+        android:layout_below="@+id/txtTicketName"
+        android:layout_marginTop="15dp"
+        android:gravity="right"
+        android:paddingRight="30dp"
+        android:textSize="18sp"/>
+
+
+
+</RelativeLayout>

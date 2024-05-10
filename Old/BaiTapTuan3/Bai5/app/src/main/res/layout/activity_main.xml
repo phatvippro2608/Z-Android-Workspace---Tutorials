@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1"
+    tools:context=".MainActivity">
+
+    <TableRow>
+        <TextView
+            android:text="Đăng nhập hệ thống"
+            android:gravity="center"
+            android:background="#03A9F4"
+            android:layout_span="2"/>
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Tên đăng nhập:"
+            android:gravity="center"/>
+
+        <EditText
+            android:hint="Nhập tên đăng nhập"
+            android:minHeight="48dp"/>
+
+
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Mật khẩu:"
+            android:gravity="center"/>
+
+        <EditText
+            android:hint="Nhập password"
+            android:minHeight="48dp"
+            android:inputType="textPassword"/>
+
+
+    </TableRow>
+    <TableRow>
+        <CheckBox
+            android:text="Lưu thông tin"
+            android:layout_column="1"
+            android:id="@+id/chbLuuThongTin"
+            />
+
+
+    </TableRow>
+    <TableRow>
+        <Button
+            android:text="Đăng nhập"
+            android:layout_column="1"
+            android:id="@+id/btnDangNhap"
+            android:layout_marginRight="10dp"/>
+
+    </TableRow>
+    <TableRow>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_column="1"
+            android:gravity="right"
+            android:paddingRight="10dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:minWidth="100dp"
+                android:layout_height="wrap_content"
+                android:text="Thoát"
+                android:id="@+id/btnThoat"/>
+        </LinearLayout>
+
+    </TableRow>
+</TableLayout>

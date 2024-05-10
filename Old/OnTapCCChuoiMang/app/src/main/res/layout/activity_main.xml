@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#04AA6D"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="THAO TÁC VỚI MÀNG"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <EditText
+            android:id="@+id/edtMang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhập vào 1 mảng chuỗi"
+            android:textSize="18sp"
+            android:text="3;45;1;2"/>
+
+        <EditText
+            android:id="@+id/edtKQ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ddd"
+            android:hint="Kết quả"
+            android:padding="10dp"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnChuyenMang"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Chuyển về mảng"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnTangDan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sắp xếp tăng dần"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnGiamDan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sắp xếp giảm dần"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMax"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Max"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnMin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Min"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnThongKe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Thống kê"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnNhieuNhat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Xuất hiện nhiều nhất"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnRandom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Random 1 chữ cái"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnDaoNguoc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Đảo ngược"
+            android:textAllCaps="false"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+
+</LinearLayout>

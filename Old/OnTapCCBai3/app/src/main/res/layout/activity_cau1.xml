@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cau1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#04AA6D"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="THAO TÁC VỚI CHUỖI"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/edtChuoi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nhập vào một chuỗi"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtKQ"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:hint="Kết quả"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số lượng ký tự trong chuỗi" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnTu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Số lượng từ trong chuỗi" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnHoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="In hoa chuỗi" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnChuanHoa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chuẩn hóa chuỗi" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnThoat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoát" />
+</LinearLayout>
