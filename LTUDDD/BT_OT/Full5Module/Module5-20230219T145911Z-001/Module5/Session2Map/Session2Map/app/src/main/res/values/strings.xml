@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Session2Map</string>
+    <string name="APIKeyMap">AIzaSyA4TPzZ9VHhEOUi7Vu-wKXlKggFlChIYv4</string>
+    <string name="location">Location</string>
+    <string name="distance">Distance:</string>
+    <string name="duration">Duration:</string>
+    <string name="name">Name</string>
+    <string name="button">Button</string>
+    <string name="search">Search</string>
+    <string name="car_repair">Car Repair</string>
+</resources>

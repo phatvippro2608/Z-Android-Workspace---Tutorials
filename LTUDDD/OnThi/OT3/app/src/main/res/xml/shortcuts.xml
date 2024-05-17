@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="events"
+        android:icon="@drawable/ic_home"
+        android:shortcutShortLabel="@string/events"
+        android:shortcutLongLabel="@string/events">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tsnguyentanphat.sathach.activity"
+            android:targetClass="com.tsnguyentanphat.sathach.activity.MainActivity"
+            android:data="events"/>
+    </shortcut>
+    <shortcut
+        android:shortcutId="tickets"
+        android:icon="@drawable/ic_tickets"
+        android:shortcutShortLabel="@string/tickets"
+        android:shortcutLongLabel="@string/tickets">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tsnguyentanphat.sathach.activity"
+            android:targetClass="com.tsnguyentanphat.sathach.activity.MainActivity"
+            android:data="tickets"/>
+    </shortcut>
+    <shortcut
+        android:shortcutId="records"
+        android:icon="@drawable/ic_record"
+        android:shortcutShortLabel="@string/records"
+        android:shortcutLongLabel="@string/records">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tsnguyentanphat.sathach.activity"
+            android:targetClass="com.tsnguyentanphat.sathach.activity.MainActivity"
+            android:data="records"/>
+    </shortcut>
+</shortcuts>

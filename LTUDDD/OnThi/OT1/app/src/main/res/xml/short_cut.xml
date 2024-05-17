@@ -1,0 +1,24 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="compose"
+        android:enabled="true"
+        android:icon="@drawable/ic_time"
+        android:shortcutShortLabel="@string/main1"
+        android:shortcutLongLabel="@string/main1">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tsnguyentanphat.activity"
+            android:targetClass="com.tsnguyentanphat.activity.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="compose2"
+        android:enabled="true"
+        android:icon="@drawable/ic_time"
+        android:shortcutShortLabel="@string/main2"
+        android:shortcutLongLabel="@string/main2">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.tsnguyentanphat.activity"
+            android:targetClass="com.tsnguyentanphat.activity.MainActivity2" />
+    </shortcut>
+</shortcuts>

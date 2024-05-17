@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Món ăn yêu thích của bạn:"
+            android:textSize="20sp"
+            tools:layout_editor_absoluteX="1dp"
+            tools:layout_editor_absoluteY="1dp" />
+
+        <CheckBox
+            android:id="@+id/chkCanhKhoQua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canh Khổ Qua"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/chkCanhChua"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canh Chua"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/chkCanhBi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Canh Bí"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnXacNhanSoThich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="xuLyXacNhanSoThich"
+            android:text="Xác nhận" />
+
+        <TextView
+            android:id="@+id/txtSoThich"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#eb9aed"
+            android:hint="Sở thích hiển thị tại đây ... "
+            android:text=""
+            android:textColor="#ffff"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Người bạn yêu thích:"
+            android:textSize="20sp"
+            android:textColor="#eb9aed"/>
+
+        <RadioGroup
+            android:id="@+id/radgrBinhChon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rad1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ninh Dương Lan Ngọc"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/rad2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Lê Dương Bảo Lâm"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/rad3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Trấn Thành"
+                android:textSize="20sp"/>
+        </RadioGroup>
+
+        <Button
+            android:onClick="xuLyBinhChon"
+            android:id="@+id/btnBinhChon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/txtHienThiBinhChon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Bình chọn hiển thị ở đây ..."
+            android:textSize="20sp"
+            android:background="#eb9aed"
+            android:textColor="#ffff"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

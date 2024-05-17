@@ -1,0 +1,28 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "title": "Annual Charity Run",
+      "imageUrl": "http://dfd714qjvm64t.cloudfront.net/wp-content/uploads/sites/14/2018/09/2018-Charity-Run-poster.jpg",
+      "introduction": "Join us for the annual charity run to raise funds for local shelters and rescue organizations. Runners of all levels are welcome to participate!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra ipsum nulla, sed ornare lorem consequat eu. Sed maximus orci a malesuada vulputate. Phasellus dictum nibh nec ultrices luctus. Nullam eget elit eu eros fringilla pellentesque. Sed ut libero lorem. Fusce non faucibus dolor. Sed condimentum massa a nisl vulputate malesuada. Donec accumsan odio ac nulla bibendum malesuada.",
+      "status": "unread"
+    },
+    {
+      "id": 2,
+      "title": "Volunteer Day at the Animal Shelter",
+      "imageUrl": "https://s3.amazonaws.com/interests-organisation%2F1885%2Fstories/1885_1528108982.jpg",
+      "introduction": "We're looking for volunteers to help out at the local animal shelter. Spend a day playing with cute animals and make a difference in their lives!",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra ipsum nulla, sed ornare lorem consequat eu. Sed maximus orci a malesuada vulputate. Phasellus dictum nibh nec ultrices luctus. Nullam eget elit eu eros fringilla pellentesque. Sed ut libero lorem. Fusce non faucibus dolor. Sed condimentum massa a nisl vulputate malesuada. Donec accumsan odio ac nulla bibendum malesuada.",
+      "status": "unread"
+    },
+    {
+      "id": 3,
+      "title": "Movie Night Under the Stars",
+      "imageUrl": "http://1.bp.blogspot.com/-1oEwF4fsaiE/U8dPxAE8jAI/AAAAAAAADGs/soOOBt8XA2Q/s1600/2914-07-MovieNight650.jpg",
+      "introduction": "Grab your blankets and join us for a movie night under the stars! We'll be showing a family-friendly movie and providing popcorn and snacks.",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut viverra ipsum nulla, sed ornare lorem consequat eu. Sed maximus orci a malesuada vulputate. Phasellus dictum nibh nec ultrices luctus. Nullam eget elit eu eros fringilla pellentesque. Sed ut libero lorem. Fusce non faucibus dolor. Sed condimentum massa a nisl vulputate malesuada. Donec accumsan odio ac nulla bibendum malesuada.",
+      "status": "read"
+    }
+  ]
+}

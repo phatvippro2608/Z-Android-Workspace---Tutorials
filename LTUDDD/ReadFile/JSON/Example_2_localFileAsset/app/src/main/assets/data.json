@@ -1,0 +1,16 @@
+{
+  "danhsach": [
+    {
+      "khoahoc": "C++",
+      "ngayhoc": "Monday",
+      "phonghoc": "C603"},
+    {
+      "khoahoc": "Java",
+      "ngayhoc": "Sunday",
+      "phonghoc": "A203"},
+    {
+      "khoahoc": "Python",
+      "ngayhoc": "Wesnesday",
+      "phonghoc": "B203"}
+  ]
+}

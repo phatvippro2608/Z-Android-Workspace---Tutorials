@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tsnguyentanphat.sathach.fragment.TicketsFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tickets List"
+        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNewTicket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Create a new ticket"
+        android:textAllCaps="false"
+        android:background="@drawable/bg_button"
+        android:textSize="24sp"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Opening Ceremony tickets"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:gravity="center"/>
+            <ListView
+                android:id="@+id/lvOpenCer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Closing Ceremony tickets"
+                android:textSize="24sp"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginTop="10dp"/>
+            <ListView
+                android:id="@+id/lvCloseCer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
